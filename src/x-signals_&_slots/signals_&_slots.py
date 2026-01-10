@@ -92,7 +92,7 @@ def main(argv):
     engine.rootContext().setContextProperty('backend', backend)
 
     # Charger le QML (chemin absolu)
-    qml_file = os.path.join(os.path.dirname(__file__), 'main.qml')
+    qml_file = os.path.join(os.path.dirname(__file__), 'signals_&_slots.qml')
     engine.load(QUrl.fromLocalFile(qml_file))
 
     if not engine.rootObjects():

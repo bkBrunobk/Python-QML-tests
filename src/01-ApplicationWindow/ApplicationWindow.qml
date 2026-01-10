@@ -14,5 +14,5 @@ ApplicationWindow {
     maximumWidth : 450
 
     color: "#B5BD00"
-    title: "Window Text"
+    title: "ApplicationWindow"
 }

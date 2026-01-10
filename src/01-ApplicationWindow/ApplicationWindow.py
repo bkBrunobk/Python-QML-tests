@@ -13,7 +13,7 @@ app = QApplication(sys.argv)
 engine = QQmlApplicationEngine()
 
 # Charger le fichier QML
-qml_file = os.path.join(os.path.dirname(__file__), 'main.qml')
+qml_file = os.path.join(os.path.dirname(__file__), 'ApplicationWindow.qml')
 engine.load(qml_file)
 
 # Vérifier si le fichier QML a été chargé
